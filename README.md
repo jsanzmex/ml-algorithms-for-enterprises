@@ -34,7 +34,7 @@ It has been used on a variety of problems, including recommendation engines, rec
 4. *Reinforcement learning* --- The algorithm is trained to map action to situation so that the reward or feedback signal is maximised. The classifier is not programmed directlyto choose the action, but instead trained to find the most rewarding actions by trial and error.
 
 5. *Transduction* --- Though it shares similar traits with supervise learning, but it does not develop a explicit
-classifier.Itattempts to predict the output based on training data, training label, and testdata.
+classifier. It attempts to predict the output based on training data, training label, and testdata.
 
 6. *Learning to learn* --- The classifier is trained to learn from the bias it induced during previous stages.
 
@@ -46,12 +46,12 @@ consider the significance of the training data and choose the classification rul
 ### Regression Algorithms
 Regression analysis is part of predictive analytics and exploits the co-relation between dependent (target) and
 independent variables. The notable regression models are:
--  Linear Regression, 
+- Linear Regression, 
 - Logistic Regression, 
-- Stepwise Regression , 
+- Stepwise Regression, 
 - Ordinary Least Squares Regression (OLSR), 
-- Multivariate Adaptive Regression Splines (MARS) , 
-- Locally Estimated Scatterplot Smoothing (LOESS) etc.
+- Multivariate Adaptive Regression Splines (MARS), 
+- Locally Estimated Scatterplot Smoothing (LOESS), etc.
 
 #### PRACTICAL CASE
 		Estimar cantidad de alarmas de acuerdo a cantidad de transacciones en cajeros, y otras variables de cajero
@@ -64,7 +64,7 @@ Instance-based or memory-based learning model stores instances of training data 
 - Locally Weighted Learning (LWL) etc.
 
 #### PRACTICAL CASE
-		Determinar el status de un cajero de acuerdo a evaluaciones anteriores, y segun varios factores
+		Determinar el status de un cajero de acuerdo a evaluaciones anteriores, y segun varios factores.
 
 ### Decision Tree Algorithms
 A decision tree constructs a tree like structure involving of possible solutions to a problem based on certain constraints. It is so named for it begins with a single simple decision or root, which then forks off into a number of branches until a decision or prediction is made, forming a tree.
@@ -110,18 +110,18 @@ Clustering is concerned with using ingrained pattern in datasets to classify and
 
 
 ### Dimensionality Reduction Algorithms
-Dimensionality reduction is typically employed to reduce a larger data set to its most discriminative components to contain relevant information and describe it with fewer features. This gives a proper visualization for data with numerous features or of high dimensionality and helps in implementing supervised classification more efficiently. Examples: 
+Dimensionality reduction is typically employed to reduce a larger data set to its most discriminative components to contain relevant information and describe it with fewer features. This gives a proper visualization for data with numerous features of high dimensionality and helps in implementing supervised classification more efficiently. Examples: 
 
 - Principal Component Analysis (PCA)
 - Principal Component Regression (PCR)
 - Partial Least Squares Regression (PLSR)
--  Sammon Mapping
+- Sammon Mapping
 - Multidimensional Scaling (MDS)
 - Projection Pursuit
 - Linear Discriminant Analysis (LDA)
 - Mixture Discriminant Analysis (MDA)
 - Quadratic Discriminant Analysis (QDA)
-- Flexible Discriminant Analysis (FDA) etc.
+- Flexible Discriminant Analysis (FDA), etc.
 
 #### PRACTICAL CASE
 		Visualizar datos de altas dimensiones
